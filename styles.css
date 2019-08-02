@@ -6,13 +6,12 @@
   width: 50%;
 }
 
-a, td, p, .h {
+body, td, a, p, .h {
   font-family: arial;
-  cursor: pointer;
-  color:#000;
-
-
+  font-size:13px;
+  color:inherit;
 }
+
 
 img {
   display: block;
@@ -20,21 +19,73 @@ img {
   margin-right: auto;
 }
 .googlehomepage {
-  width: 500px;
-  height: 200px;
+  width: 272;
+  height: 201px;
+  position: center;
+
 
 }
-topnav {
+#leftnav {
   color:black
 }
 
-.searchbar {
-  width: 595px;
-  height: 51px;
+.topnav-right {
+  float: right;
+  
+}
 
+.searchbar {
+  width: 528px;
+  height: 42px;
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 20px;
+  font-size: small;
+  border-radius: 24px;
+  box-shadow: none;
+  position:center;
 }
 
 div {
   display: block;
 }
 
+.button {
+  padding-top: 30px;
+  margin-bottom: 300px;
+  text-align: center;
+
+}
+
+.signin {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    font-size: 13px;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #f2f2f2;
+
+}
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  } 
